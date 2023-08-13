@@ -1,2 +1,92 @@
 /*What is this link? */
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+* {
+    color: black;
+    align-items: center;
+}
+
+body * {
+    font-family: 'Source Sans Pro';
+    background-color: #eee;
+    border-block-color: #eee;
+}
+
+header h1 {
+    font-family: 'Abril Fatface';
+    text-align: center;
+}
+
+title {
+    font-family: 'Roboto Slab';
+}
+
+div .newspaper-container {
+    background-color: white;
+    box-shadow: #ddd;
+    width: 700px;
+    border-radius: 50%;
+    padding: 5em 10em;
+
+}
+
+main h5 {
+    color: #dd3232;
+}
+
+img {
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    padding: 5px 10px 5px 10px;
+    border: 2px solid;
+    border-top-color: black;
+    border-bottom-color: black;
+    border-left-color: white;
+    border-right-color: white;
+}
+
+nav * {
+    color: #777;
+    text-decoration: none;
+    
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding-right: 2em;
+}
+
+div.more-articles {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+div.more-articles section {
+    margin: auto;
+    border: 0%;
+    padding: 0%;
+    align-items: center;
+}
+
+div.more-articles * {
+    align-items: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+ul#footermenu * {
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+}
